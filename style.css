@@ -3,10 +3,30 @@
     padding:0;
     font-family: 'Poppins', sans-serif;
 }
+.main-div-1{
+    background:url(images/top-banner.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    
+}
+.main-div-2{
+    margin-top:100px;
+    background:url(images/dream-bg.png);
+    background-position:right;
+    background-repeat: no-repeat;
+}
+.main-div-3 {
+    margin-top:100px;
+    margin-bottom:100px;
+    background:url(images/exp-bg.png);
+    background-position:;
+    background-repeat: no-repeat;
+}
 .container{
-    padding-left:20px;
-    padding-right:20px;
-   margin-top:100px;
+    padding-left:40px;
+    padding-right:40px;
+  padding-top:50px;
 }
 .information{
     display:flex;
@@ -32,21 +52,21 @@
 .arif span{
     color:orange;
 }
-.information-1 h6{
+.information-text h6{
     font-size:18px;
     margin-top:30px;
 }
-.information-1 p{
+.information-text p{
     margin-top:10px;
 }
-.information-1 button a{
+.information-text button a,.information-text-2 a{
     text-decoration:none;
     color:white;
     font-weight: bold;
     display: block;
 
 }
-.information-1 button{
+.information-text button{
     background:orange;
     border:none;
     height: 48px;
@@ -55,4 +75,46 @@
     border-radius:10px;
     margin-top:10px;
     cursor: pointer;
+}
+.information-text-2 h1{
+    font-size:40px;
+}
+.information-text-2 h4{
+    font-size:20px;
+    margin-top:20px;
+    margin-bottom: 5px;
+
+}
+.information-text-2 button{
+    background:orange;
+    border:none;
+    height: 48px;
+    width: 200px;
+    text-align:center;
+    border-radius:10px;
+    margin-top:10px;
+    cursor: pointer;
+}
+
+.all-text h1{
+    font-size:30px;
+
+}
+.all-text h4{
+    font-size:20px;
+    color: orange;
+    margin-top:20px;
+}
+.all-text{
+    box-shadow:0px 1px 11px -3px black;
+    padding:30px 20px;
+    margin-left:20px;;
+}
+.Experiences{
+    margin-bottom:60px;
+}
+
+footer{
+    text-align:center;
+    margin-bottom:50px;
 }
